@@ -1,13 +1,13 @@
-input.onGesture(Gesture.Shake, function on_gesture_shake() {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
     
 })
 let hand = 0
-input.onGesture(Gesture.Shake, function on_gesture_shake_1() {
+input.onButtonPressed(Button.A, function on_button_pressed_a_1() {
     
     hand = randint(1, 3)
 })
 hand = 0
-input.onGesture(Gesture.Shake, function on_gesture_shake_2() {
+input.onButtonPressed(Button.A, function on_button_pressed_a_2() {
     
     hand = randint(1, 3)
     if (hand == 1) {
@@ -16,7 +16,7 @@ input.onGesture(Gesture.Shake, function on_gesture_shake_2() {
     
 })
 hand = 0
-input.onGesture(Gesture.Shake, function on_gesture_shake_3() {
+input.onButtonPressed(Button.A, function on_button_pressed_a_3() {
     
     hand = randint(1, 3)
     if (hand == 1) {
@@ -27,7 +27,7 @@ input.onGesture(Gesture.Shake, function on_gesture_shake_3() {
     
 })
 hand = 0
-input.onGesture(Gesture.Shake, function on_gesture_shake_4() {
+input.onButtonPressed(Button.A, function on_button_pressed_a_4() {
     
     hand = randint(1, 3)
     if (hand == 1) {
